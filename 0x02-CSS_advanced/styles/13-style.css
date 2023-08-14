@@ -47,13 +47,12 @@ h6 {
 
 body {
     color: var(--text-color);
-    text-align: center;
 }
 
-a {
+/*a {
     color: var(--text-color);
     text-decoration: none;
-}
+}*/
 
 a[href]:link {
     color: var(--text-color);
