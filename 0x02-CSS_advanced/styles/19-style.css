@@ -517,6 +517,7 @@ a:active {
     text-align: var(--section-footer-align);
 }
 
+
 .nav {
     margin: 0;
     padding: 0;
@@ -540,6 +541,10 @@ a:active {
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
+}
+
+.navbar-menu {
+    float: right;
 }
 
 .footer {

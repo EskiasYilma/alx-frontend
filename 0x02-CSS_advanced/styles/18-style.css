@@ -542,7 +542,10 @@ a:active {
     color: var(--nav-item-link-hover);
 }
 
+.navbar-menu {
+    float: right;
+}
+
 .footer {
     padding: var(--footer-padding);
 }
-
