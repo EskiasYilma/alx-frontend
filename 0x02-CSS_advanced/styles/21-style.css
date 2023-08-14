@@ -587,9 +587,17 @@ ul.row {
     clear: both;
 }
 
-[class^="col-"] {
+[class*="col-"] {
     float: left;
-    padding: calc(var(--line-height-base) / 2);
+    padding: 0.5rem;
+}
+
+.col-1-3 {
+    width: 33.33%;
+}
+
+.col-1-2 {
+    width: 50%;
 }
 
 .col-1-3,
